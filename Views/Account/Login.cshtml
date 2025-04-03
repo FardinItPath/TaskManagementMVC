@@ -21,6 +21,9 @@
         {
             <div class="form-group mb-3">
                 @Html.LabelFor(m => m.UserName)
+
+                 @Html.LabelFor(m => m.UserName)
+
                 @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Enter Username" })
                 @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
             </div>
